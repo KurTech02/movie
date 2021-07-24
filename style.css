@@ -19,6 +19,7 @@ body {
     color: #fff;
     position: relative;
     z-index: 0;
+    min-width: 480px;
 }
 .glow-on-hover {
     width: 450px;
@@ -31,6 +32,7 @@ body {
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    min-width: 480px;
 }
 
 .glow-on-hover:before {
@@ -53,6 +55,7 @@ body {
 
 .glow-on-hover:active {
     color: #000
+    min-width: 480px;
 }
 
 .glow-on-hover:active:after {
@@ -62,6 +65,7 @@ body {
 
 .glow-on-hover:hover:before {
     opacity: 1;
+    min-width: 480px;
 }
 
 .glow-on-hover:after {
@@ -74,11 +78,13 @@ body {
     left: 0;
     top: 0;
     border-radius: 10px;
+    min-width: 480px;
 }
 .movies-img{
     width:100%;
     height: 400px;
     position: relative;
+    min-width: 480px;
 }
 .movies-img img{
     width: 100%;
